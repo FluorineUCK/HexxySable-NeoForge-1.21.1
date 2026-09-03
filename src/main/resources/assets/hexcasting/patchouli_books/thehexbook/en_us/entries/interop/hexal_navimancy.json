@@ -1,0 +1,26 @@
+{
+  "name": "hexxysable.entry.navimancy.interop.hexal",
+  "icon": "minecraft:cherry_boat",
+  "category": "hexcasting:interop",
+  "advancement": "hexcasting:root",
+  "sortnum": 20,
+  "flag": "mod:hexal",
+  "pages": [
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexxysable:embark",
+      "anchor": "hexxysable:embark",
+      "input": "ship",
+      "output": "",
+      "text": "hexxysable.page.navimancy.interop.hexal.embark"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexxysable:disembark",
+      "anchor": "hexxysable:disembark",
+      "input": "ship",
+      "output": "",
+      "text": "hexxysable.page.navimancy.interop.hexal.disembark"
+    }
+  ]
+}

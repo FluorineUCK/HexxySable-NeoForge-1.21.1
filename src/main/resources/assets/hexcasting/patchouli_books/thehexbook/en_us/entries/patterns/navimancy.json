@@ -1,0 +1,89 @@
+{
+    "name":  "hexxysable.entry.navimancy.patterns",
+    "icon":  "minecraft:spruce_boat",
+    "category":  "hexcasting:patterns",
+    "advancement":  "hexcasting:root",
+    "sortnum":  20,
+    "pages":  [
+                  {
+                      "type":  "hexcasting:pattern",
+                      "op_id":  "hexxysable:pos",
+                      "anchor":  "hexxysable:pos",
+                      "input":  "vec",
+                      "output":  "ship",
+                      "text":  "hexxysable.page.navimancy.patterns.pos"
+                  },
+                  {
+                      "type":  "hexcasting:pattern",
+                      "op_id":  "hexxysable:zone_ship",
+                      "anchor":  "hexxysable:zone_ship",
+                      "input":  "vec, num",
+                      "output":  "[ship]",
+                      "text":  "hexxysable.page.navimancy.patterns.zone_ship"
+                  },
+                  {
+                      "type":  "hexcasting:pattern",
+                      "op_id":  "hexxysable:com/world",
+                      "anchor":  "hexxysable:com/world",
+                      "input":  "ship",
+                      "output":  "vec",
+                      "text":  "hexxysable.page.navimancy.patterns.com.world"
+                  },
+                  {
+                      "type":  "hexcasting:pattern",
+                      "op_id":  "hexxysable:com/model",
+                      "anchor":  "hexxysable:com/model",
+                      "input":  "ship",
+                      "output":  "vec",
+                      "text":  "hexxysable.page.navimancy.patterns.com.model"
+                  },
+                  {
+                      "type":  "hexcasting:pattern",
+                      "op_id":  "hexxysable:mass",
+                      "anchor":  "hexxysable:mass",
+                      "input":  "pos | ship",
+                      "output":  "num",
+                      "text":  "hexxysable.page.navimancy.patterns.mass"
+                  },
+                  {
+                      "type":  "hexcasting:pattern",
+                      "op_id":  "hexxysable:rot/euler",
+                      "anchor":  "hexxysable:rot/euler",
+                      "input":  "ship",
+                      "output":  "vec",
+                      "text":  "hexxysable.page.navimancy.patterns.rot.euler"
+                  },
+                  {
+                      "type":  "hexcasting:pattern",
+                      "op_id":  "hexxysable:scale/get",
+                      "anchor":  "hexxysable:scale/get",
+                      "input":  "ship",
+                      "output":  "num",
+                      "text":  "hexxysable.page.navimancy.patterns.scale.get"
+                  },
+                  {
+                      "type":  "hexcasting:pattern",
+                      "op_id":  "hexxysable:velocity/linear",
+                      "anchor":  "hexxysable:velocity/linear",
+                      "input":  "ship",
+                      "output":  "vec",
+                      "text":  "hexxysable.page.navimancy.patterns.velocity.linear"
+                  },
+                  {
+                      "type":  "hexcasting:pattern",
+                      "op_id":  "hexxysable:velocity/angular",
+                      "anchor":  "hexxysable:velocity/angular",
+                      "input":  "ship",
+                      "output":  "vec",
+                      "text":  "hexxysable.page.navimancy.patterns.velocity.angular"
+                  },
+                  {
+                      "type":  "hexcasting:pattern",
+                      "op_id":  "hexxysable:aabb",
+                      "anchor":  "hexxysable:aabb",
+                      "input":  "ship",
+                      "output":  "vec, vec",
+                      "text":  "hexxysable.page.navimancy.patterns.aabb"
+                  }
+              ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "hexxysable.entry.navimancy.basics",
+  "icon": "minecraft:oak_boat",
+  "category": "hexcasting:basics",
+  "advancement": "hexcasting:root",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "hexxysable.page.basics.navimancy.intro"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexxysable.title.basics.navimancy.space",
+      "anchor": "hexxysable:page/space/world",
+      "text": "hexxysable.page.basics.navimancy.space.world"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "hexxysable:page/space/model_body",
+      "text": "hexxysable.page.basics.navimancy.space.model_body"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "hexxysable.title.basics.navimancy.forces_torques",
+      "anchor": "hexxysable:page/forces_torques",
+      "text": "hexxysable.page.basics.navimancy.forces_torques"
+    }
+  ]
+}

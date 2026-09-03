@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "hexal:wisp/wandering",
+      "required": false
+    },
+    {
+      "id": "hexal:wisp/projectile",
+      "required": false
+    },
+    {
+      "id": "hexal:wisp/ticking",
+      "required": false
+    }
+  ]
+}
